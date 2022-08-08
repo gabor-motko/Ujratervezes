@@ -5,6 +5,11 @@ https://www.youtube.com/c/NetworkChuck
 - Hálózati alapok, technológiák (pl. Docker, Kubernetes), vállalati hálózattechnikai témák áttekintése
 - Linux alapok
 
+## CyberCPU Tech
+https://www.youtube.com/c/CyberCPU/
+
+- Windows technikák, PC hardver hírek, vélemények
+
 ## DistroTube
 https://www.youtube.com/c/DistroTube
 
@@ -21,6 +26,11 @@ https://www.youtube.com/c/MentalOutlaw
 
 - Technológiai és IT biztonság hírek, vélemények, útmutatók
 - \#based AF
+
+## JayzTwoCents
+https://www.youtube.com/c/Jayztwocents
+
+- Hardver és PC kütyü hírek, vélemények, tesztelés
 
 ## SomeOrdinaryGamers (Mutahar)
 https://www.youtube.com/c/SomeOrdinaryGamers
