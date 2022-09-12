@@ -165,12 +165,12 @@ A shell általában három felületen kommunikál a terminállal:
 - Standard hibakimenet (`stderr`): kiírás a terminálra, függetlenül a standard kimenet átirányításától.
 
 Népszerű shell-ek:
-| név | parancs | fájl |
-|---|---|---|
-| Bourne Shell | `sh` | `/bin/sh` |
-| Bourne Again Shell, Bash | `bash` | `/bin/bash` |
-| Z-shell | `zsh` | `/bin/zsh` |
-|PowerShell 7|`pwsh`|`/usr/bin/pwsh`|
-|Friendly Interactive Shell, Fish|`fish`|`/usr/bin/fish`|
+| név | parancs |
+|---|---|
+| Bourne Shell | `sh` |
+| Bourne Again Shell, Bash | `bash` |
+| Z-shell | `zsh` |
+|PowerShell 7|`pwsh`|
+|Friendly Interactive Shell, Fish|`fish`|
 
 A shell lehet **interaktív**, mint amikor terminálon futva a felhasználótól vár bemenetet, vagy **neminteraktív**, amikor egy programot, scriptet, vagy utasítást futtat.
