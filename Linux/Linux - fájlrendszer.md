@@ -127,15 +127,15 @@ GNOME, KDE Plasma, és sok más környezet biztosít háttérfolyamatokat, amik 
 A felcsatolt fájlrendszert ezután transzparensen, a csatolási pont tartalmaként lehet elérni.
 
 #### Tipikusan más partícióként felcsatolt mappák
-**/boot**
+**/boot**  
 GPT rendszereken az *EFI System Partition* fájlrendszernek egy UEFI által olvasható, FAT32 vagy VFAT típusú partíción kell lennie. Ezt a fájlrendszert indítás után vagy a `/boot` vagy a `/boot/efi` mappába szokás felcsatolni.
 
-**/home**
-A felhasználói mappákat érdemes más partíción, vagy akár más lemezen tárolni.
+**/home**  
+A felhasználói mappákat mindenképp érdemes más partíción, vagy akár más lemezen tárolni.
 - Takarékos hogyha a root partíción korlátozott a hely.
 - Felhasználói mappáknak általában elég a lassabb elérésű, de nagyobb háttértár (pl. M.2 helyett SATA, SSD helyett HDD).
 - Ha a root partíció tönkremegy, nem viszi magával a `/home` partíciót.
 - Újratelepítéskor nem kell külön kimásolni a `/home` tartalmát másik lemezre, elég leválasztani a fájlrendszert.
 
-/srv
-Ha egy szerver szerepkör innen szolgáltat tartalmat, értelemszerűen érdemes 
+**/srv**  
+Ha egy szerver szerepkör innen szolgáltat nagy mennyiségű tartalmat, értelemszerűen érdemes más fájlrendszerre mozgatni azt.
